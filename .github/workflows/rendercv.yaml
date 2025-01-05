@@ -45,30 +45,29 @@ jobs:
                         - '*_CV.tex'
                         - 'README.md'
             - name: Configure GPG key and programme
-              if: steps.changes.outputs.cv == 'true'
               run: |
                   echo "$GPG_PERSONAL_KEY" | base64 --decode > /tmp/gpg.key
-                  gpg --batch --import --yes /tmp/gpg.key
+                  gpg --batch --import /tmp/gpg.key
                   echo "#!/bin/bash" > /tmp/gpg.sh
-                  echo "gpg --batch --pinentry-mode=loopback --passphrase $GPG_PERSONAL_PASS \"\$@\"" >> /tmp/gpg.sh
+                  echo "gpg --batch --pinentry-mode loopback --passphrase $GPG_PERSONAL_KEY_PASS \"\$@\"" >> /tmp/gpg.sh
                   chmod +x /tmp/gpg.sh
               env:
                   GPG_PERSONAL_KEY: "${{ secrets.GPG_PERSONAL_KEY }}"
-                  GPG_PERSONAL_PASS: "${{ secrets.GPG_PERSONAL_PASS }}"
+                  GPG_PERSONAL_KEY_PASS: "${{ secrets.GPG_PERSONAL_KEY_PASS }}"
             - name: Configure Git
-              if: steps.changes.outputs.cv == 'true'
               run: |
                   git config --global user.name $GIT_USER_NAME
                   git config --global user.email $GIT_USER_EMAIL
                   git config --global user.signingKey $GPG_PERSONAL_KEY_ID
+                  git config --global commit.gpgSign true
+                  git config --global tag.gpgSign true
                   git config --global gpg.program /tmp/gpg.sh
               env:
                   GIT_USER_NAME: "Cristian Cristea"
                   GIT_USER_EMAIL: "cristiancristea00@gmail.com"
                   GPG_PERSONAL_KEY_ID: "${{ secrets.GPG_PERSONAL_KEY_ID }}"
             - name: Push the changes
-              if: steps.changes.outputs.cv == 'true'
               run: |
                   git add --all
-                  git commit --message "Update and render the latest CV"
-                  git push --force
+                  git commit --message "Render the latest CV"
+                  git push

@@ -1,0 +1,176 @@
+cv:
+    name: Cristian Cristea
+    email: cristiancristea00@gmail.com
+    phone: tel:+40770779947
+    social_networks:
+        - network: LinkedIn
+          username: cristiancristea00
+        - network: GitHub
+          username: cristiancristea00
+    sections:
+        "about":
+            - label: Languages
+              details: Native proficiency in Romanian | Full professional proficiency in English | I'm learning French
+            - label: Programming
+              details: C, C++ and Python | AVR, PIC, and ARM Assembly | MATLAB, Rust, Java, and TypeScript
+            - label: Python
+              details: NumPy, SciPy, SymPy, Pandas, Seaborn, Matplotlib, OpenCV, scikit-image, scikit-learn, and TensorFlow
+            - label: Development
+              details: Linux | Git and GitHub/GitLab/Bitbucket | CMake and Make
+            - label: Others
+              details: LaTeX | Doxygen and Markdown | System Verilog and SPICE
+            - label: Interests
+              details: Embedded Systems | Internet of Things | Machine Learning | Photography
+        experience:
+            - company: Microchip Technology
+              position: Embedded Software Engineer
+              location: Bucharest, Romania
+              start_date: 2023-08
+              end_date: present
+              highlights:
+                  - Developed and updated low-level peripheral drivers for PIC and AVR microcontrollers, implementing unit tests using a custom variant of the [Unity](https://www.throwtheswitch.org/unity) framework to ensure driver reliability and functionality
+                  - Collaborated on the development and testing of various embedded systems solutions, contributing to the design, integration, and validation of complex systems
+                  - Developed and tested GUI-based code generation tools for new peripherals using TypeScript and FreeMarker, leveraging an internal framework.
+                  - Authored and helped with Application Notes and Technical Brief documents, including the development of associated coding examples and hardware demos to support technical understanding and practical application
+                  - Acquired experience with DITA-based structured content authoring and management tools by using Tridion Docs for documentation creation.
+            - company: Microchip Technology
+              position: Intern Embedded Applications
+              location: Bucharest, Romania
+              start_date: 2022-07
+              end_date: 2023-08
+              highlights:
+                  - Completed an onboarding training in embedded systems fundamentals, covering key topics such as microcontrollers, interrupts, and communication protocols (UART, I2C, and SPI)
+                  - Developed an [Environmental Station](TBD) embedded project during a mandatory university apprenticeship, integrating sensor data acquisition, processing, and real-time monitoring
+                  - Gained initial experience with Agile software development methodology through the Scrum process, acquiring a practical understanding of iterative development and team collaboration
+                  - Familiarised myself with Agile-oriented tools from Atlassian, including Jira, Bitbucket, and Confluence, as well as the DevOps tool Jenkins
+                  - Contributed to the creation and updating of code examples while undergoing ramp-up training in TypeScript
+            - company: CAMPUS Research Institute
+              position: Research Intern
+              location: Bucharest, Romania
+              start_date: 2020-07
+              end_date: 2020-09
+              highlights:
+                  - Generated an artificial dataset of facial images with individuals wearing medical masks correctly or incorrectly, leveraging facial landmarks
+                  - Engineered and trained a neural network model using transfer learning, optimising it for real-time inference of mask compliance
+                  - Developed a Python-based application using \texttt{rospy} to integrate the neural network with the [TIAGo from PAL Robotics](https://pal-robotics.com/robot/tiago)
+                  - Designed and implemented an algorithm to accurately extract and analyse body temperature readings from a thermographic camera feed
+        education:
+            - institution: University of Science and Technology POLITEHNICA Bucharest
+              area: Advanced Computing in Embedded Systems
+              degree: M.Sc.
+              location: Bucharest, Romania
+              start_date: 2023-09
+              end_date: present
+              highlights:
+                  - Excelled in Microcontrollers and Embedded Systems as well as Digital System Design Project courses
+                  - Deeply engaged with courses in Reconfigurable Computing, with a particular emphasis on hands-on FPGA implementations, as well as Performance Analysis and Optimisation, and Software Development Process and Testing
+                  - Engaged in related studies on Functional Verification, Fundamentals of Computer Vision, Machine Learning, and Operating Systems
+            - institution: University of Science and Technology POLITEHNICA Bucharest
+              area: Information Engineering
+              degree: B.Sc.
+              location: Bucharest, Romania
+              start_date: 2019-09
+              end_date: 2023-07
+              highlights:
+                  - Demonstrated strong performance in core courses, including Computer Programming, Data Structures, Algorithms, and Object-Oriented Programming, with a particular passion for Microprocessor Architecture and Microcontrollers
+                  - Gained hands-on experience in Circuit Synthesis and Testing using Verilog, with a deep understanding of Digital Circuits Design principles
+                  - Developed foundational skills in analogue circuit design, including simulation and analysis using SPICE programs
+                  - Engaged in comprehensive coursework covering Machine Learning, Image Processing and Analysis, Distributed and Parallel Computing, Database Systems, Digital and Statistical Signal Processing, Information Theory, Communication Systems, Computer Networks, PCB Design, and advanced mathematics including Statistics, Probability, Linear Algebra, Multivariable Calculus, and Differential Equations
+        projects:
+            - name: TBD
+              date: "[github.com/name/repo](https://github.com/sinaatalay/rendercv)"
+              highlights:
+                  - TBD
+        certifications:
+            - name: "[CCNA: Introduction to Networks](https://www.credly.com/badges/f765af4e-e1df-4644-8a9c-4a8ab9fedc42)"
+              date: 2021
+            - name: "[Google IT Automation with Python Professional Certificate](https://www.credly.com/badges/740a37a0-4a40-4a36-abe1-679ad53e4146)"
+              date: 2020
+            - name: "[Google IT Support Professional Certificate](https://www.credly.com/badges/0c20b39b-18c1-4498-8e57-1aedb3f36904)"
+              date: 2020
+            - name: "[TensorFlow: Data and Deployment Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/XHAD9DTRYTMG)"
+              date: 2020
+            - name: "[TensorFlow Developer Professional Certificate](https://www.coursera.org/account/accomplishments/specialization/certificate/Z79E5B7CY76C)"
+              date: 2020
+            - name: "[Deep Learning Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/BRJV9TAX7QUA)"
+              date: 2020
+            - name: "[Cambridge C1 Advanced](https://1drv.ms/b/s!Art6DR7ET63umGTH3dIUsOB616G7?e=Df5XSN)"
+              date: 2018
+            - name: "[European Computer Drivers License](https://1drv.ms/b/s!Art6DR7ET63umGixI31QfN1xKphF?e=oC7JjH)"
+              date: 2018
+
+design:
+    theme: classic
+    font: Source Sans 3
+    font_size: 10pt
+    page_size: letterpaper
+    color: "#8f0927"
+    disable_external_link_icons: false
+    disable_page_numbering: false
+    page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+    disable_last_updated_date: false
+    last_updated_date_style: Last updated in TODAY
+    header_font_size: 30 pt
+    text_alignment: justified
+    seperator_between_connections: ""
+    use_icons_for_connections: true
+    margins:
+        page:
+            top: 1.5 cm
+            bottom: 1.5 cm
+            left: 1.5 cm
+            right: 1.5 cm
+        section_title:
+            top: 0.3 cm
+            bottom: 0.2 cm
+        entry_area:
+            left_and_right: 0.2 cm
+            vertical_between: 0.2 cm
+            date_and_location_width: 3.5 cm
+            education_degree_width: 1 cm
+        highlights_area:
+            top: 0.10 cm
+            left: 0.4 cm
+            vertical_between_bullet_points: 0.10 cm
+        header:
+            vertical_between_name_and_connections: 0.3 cm
+            bottom: 0.3 cm
+            horizontal_between_connections: 0.5 cm
+    show_timespan_in:
+        - Experience
+
+locale_catalog:
+    phone_number_format: international
+    date_style: "MONTH_ABBREVIATION YEAR"
+    abbreviations_for_months:
+        - Jan
+        - Feb
+        - Mar
+        - Apr
+        - May
+        - Jun
+        - Jul
+        - Aug
+        - Sep
+        - Oct
+        - Nov
+        - Dec
+    full_names_of_months:
+        - January
+        - February
+        - March
+        - April
+        - May
+        - June
+        - July
+        - August
+        - September
+        - October
+        - November
+        - December
+    month: month
+    months: months
+    year: year
+    years: years
+    present: present
+    to: to
