@@ -1,0 +1,74 @@
+name: Render a CV
+
+on:
+    push:
+        branches:
+            - main
+    workflow_call: # to make the workflow triggerable from other workflows (release.yaml)
+
+permissions:
+    contents: write
+
+jobs:
+    rendercv:
+        name: RenderCV
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - uses: actions/setup-python@v5
+              with:
+                  python-version: "3.12"
+            - name: Install RenderCV
+              run: |
+                  pip install -r requirements.txt
+            - name: RenderCV
+              run: |
+                  cd src
+                  cv_file=$(find .  -maxdepth 1 -type f -name "*_CV.yaml" | head -n 1)
+                  if [ -z "$cv_file" ]; then
+                    echo "No RenderCV file found!"
+                    exit 1
+                  fi
+                  cd ..
+                  rendercv render src/$cv_file --pdf-path ${cv_file%.yaml}.pdf --markdown-path README.md --latex-path ${cv_file%.yaml}.tex
+            - name: Upload rendercv_output as an artifact
+              uses: actions/upload-artifact@v4
+              with:
+                  name: RenderCV Output
+                  path: rendercv_output
+            - uses: dorny/paths-filter@v3
+              id: changes
+              with:
+                  base: HEAD
+                  filters: |
+                      cv:
+                        - '*_CV.tex'
+                        - 'README.md'
+            - name: Configure GPG key and programme
+              if: steps.changes.outputs.cv == 'true'
+              run: |
+                  echo "$GPG_PERSONAL_KEY" | base64 --decode > /tmp/gpg.key
+                  gpg --batch --import --yes /tmp/gpg.key
+                  echo "#!/bin/bash" > /tmp/gpg.sh
+                  echo "gpg --batch --pinentry-mode=loopback --passphrase $GPG_PERSONAL_PASS \"\$@\"" >> /tmp/gpg.sh
+                  chmod +x /tmp/gpg.sh
+              env:
+                  GPG_PERSONAL_KEY: "${{ secrets.GPG_PERSONAL_KEY }}"
+                  GPG_PERSONAL_PASS: "${{ secrets.GPG_PERSONAL_PASS }}"
+            - name: Configure Git
+              if: steps.changes.outputs.cv == 'true'
+              run: |
+                  git config --global user.name $GIT_USER_NAME
+                  git config --global user.email $GIT_USER_EMAIL
+                  git config --global user.signingKey $GPG_PERSONAL_KEY_ID
+                  git config --global gpg.program /tmp/gpg.sh
+              env:
+                  GIT_USER_NAME: "Cristian Cristea"
+                  GIT_USER_EMAIL: "cristiancristea00@gmail.com"
+                  GPG_PERSONAL_KEY_ID: "${{ secrets.GPG_PERSONAL_KEY_ID }}"
+            - name: Push the changes
+              if: steps.changes.outputs.cv == 'true'
+              run: |
+                  git add --all
+                  git commit --message "Update and render the latest CV"
+                  git push --force
