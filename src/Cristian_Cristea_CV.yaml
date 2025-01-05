@@ -76,27 +76,38 @@ cv:
                   - Gained hands-on experience in Circuit Synthesis and Testing using Verilog, with a deep understanding of Digital Circuits Design principles
                   - Developed foundational skills in analogue circuit design, including simulation and analysis using SPICE programs
                   - Engaged in comprehensive coursework covering Machine Learning, Image Processing and Analysis, Distributed and Parallel Computing, Database Systems, Digital and Statistical Signal Processing, Information Theory, Communication Systems, Computer Networks, PCB Design, and advanced mathematics including Statistics, Probability, Linear Algebra, Multivariable Calculus, and Differential Equations
-        projects:
-            - name: TBD
-              date: "[github.com/name/repo](https://github.com/sinaatalay/rendercv)"
-              highlights:
-                  - TBD
         certifications:
-            - name: "[CCNA: Introduction to Networks](https://www.credly.com/badges/f765af4e-e1df-4644-8a9c-4a8ab9fedc42)"
+            - title: "[CCNA: Introduction to Networks](https://www.credly.com/badges/f765af4e-e1df-4644-8a9c-4a8ab9fedc42)"
+              authors:
+                  - Issued by Cisco
               date: 2021
-            - name: "[Google IT Automation with Python Professional Certificate](https://www.credly.com/badges/740a37a0-4a40-4a36-abe1-679ad53e4146)"
+            - title: "[Google IT Automation with Python Professional Certificate](https://www.credly.com/badges/740a37a0-4a40-4a36-abe1-679ad53e4146)"
+              authors:
+                  - Issued by Coursera
               date: 2020
-            - name: "[Google IT Support Professional Certificate](https://www.credly.com/badges/0c20b39b-18c1-4498-8e57-1aedb3f36904)"
+            - title: "[Google IT Support Professional Certificate](https://www.credly.com/badges/0c20b39b-18c1-4498-8e57-1aedb3f36904)"
+              authors:
+                  - Issued by Coursera
               date: 2020
-            - name: "[TensorFlow: Data and Deployment Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/XHAD9DTRYTMG)"
+            - title: "[TensorFlow: Data and Deployment Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/XHAD9DTRYTMG)"
+              authors:
+                  - Issued by Coursera
               date: 2020
-            - name: "[TensorFlow Developer Professional Certificate](https://www.coursera.org/account/accomplishments/specialization/certificate/Z79E5B7CY76C)"
+            - title: "[TensorFlow Developer Professional Certificate](https://www.coursera.org/account/accomplishments/specialization/certificate/Z79E5B7CY76C)"
+              authors:
+                  - Issued by Coursera
               date: 2020
-            - name: "[Deep Learning Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/BRJV9TAX7QUA)"
+            - title: "[Deep Learning Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/BRJV9TAX7QUA)"
+              authors:
+                  - Issued by Coursera
               date: 2020
-            - name: "[Cambridge C1 Advanced](https://1drv.ms/b/s!Art6DR7ET63umGTH3dIUsOB616G7?e=Df5XSN)"
+            - title: "[Cambridge C1 Advanced](https://1drv.ms/b/s!Art6DR7ET63umGTH3dIUsOB616G7?e=Df5XSN)"
+              authors:
+                  - Issued by Cambridge English
               date: 2018
-            - name: "[European Computer Drivers License](https://1drv.ms/b/s!Art6DR7ET63umGixI31QfN1xKphF?e=oC7JjH)"
+            - title: "[International Computer Drivers License](https://1drv.ms/b/s!Art6DR7ET63umGixI31QfN1xKphF?e=oC7JjH)"
+              authors:
+                  - Issued by ICDL
               date: 2018
 
 design:
@@ -107,7 +118,7 @@ design:
     color: "#8f0927"
     disable_external_link_icons: false
     disable_page_numbering: false
-    page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+    page_numbering_style: NAME's Curriculum Vitae (Résumé) -- Page PAGE_NUMBER of TOTAL_PAGES
     disable_last_updated_date: false
     last_updated_date_style: Last updated in TODAY
     header_font_size: 30 pt
