@@ -3,11 +3,11 @@
 % Packages:
 \usepackage[
     ignoreheadfoot, % set margins without considering header and footer
-    top=1.5 cm, % seperation between body and page edge from the top
-    bottom=1.5 cm, % seperation between body and page edge from the bottom
-    left=1.5 cm, % seperation between body and page edge from the left
-    right=1.5 cm, % seperation between body and page edge from the right
-    footskip=0.75 cm, % seperation between body and footer
+    top=1.25 cm, % seperation between body and page edge from the top
+    bottom=1.25 cm, % seperation between body and page edge from the bottom
+    left=1.25 cm, % seperation between body and page edge from the left
+    right=1.25 cm, % seperation between body and page edge from the right
+    footskip=0.625 cm, % seperation between body and footer
     % showframe % for debugging 
 ]{geometry} % for adjusting page geometry
 \usepackage[explicit]{titlesec} % for customizing section titles
@@ -88,11 +88,11 @@
 % \renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$} % custom bullet points
 \newenvironment{highlights}{
     \begin{itemize}[
-        topsep=0.10 cm,
-        parsep=0.10 cm,
+        topsep=0.1 cm,
+        parsep=0.1 cm,
         partopsep=0pt,
         itemsep=0pt,
-        leftmargin=0.4 cm + 10pt
+        leftmargin=0 cm + 10pt
     ]
 }{
     \end{itemize}
@@ -100,8 +100,8 @@
 
 \newenvironment{highlightsforbulletentries}{
     \begin{itemize}[
-        topsep=0.10 cm,
-        parsep=0.10 cm,
+        topsep=0.1 cm,
+        parsep=0.1 cm,
         partopsep=0pt,
         itemsep=0pt,
         leftmargin=10pt
@@ -153,8 +153,8 @@
 \newcommand{\placelastupdatedtext}{% \placetextbox{<horizontal pos>}{<vertical pos>}{<stuff>}
   \AddToShipoutPictureFG*{% Add <stuff> to current page foreground
     \put(
-        \LenToUnit{\paperwidth-1.5 cm-0.2 cm+0.05cm},
-        \LenToUnit{\paperheight-0.75 cm}
+        \LenToUnit{\paperwidth-1.25 cm-0.2 cm+0.05cm},
+        \LenToUnit{\paperheight-0.625 cm}
     ){\vtop{{\null}\makebox[0pt][c]{
         \small\color{gray}\textit{Last updated in January 2025}\hspace{\widthof{Last updated in January 2025}}
     }}}%
@@ -181,25 +181,25 @@
         \fontsize{30 pt}{30 pt}
         \textbf{Cristian Cristea}
 
-        \vspace{0.3 cm}
+        \vspace{0.5 cm}
 
         \normalsize
         \mbox{\hrefWithoutArrow{mailto:cristiancristea00@gmail.com}{{\footnotesize\faEnvelope[regular]}\hspace*{0.13cm}cristiancristea00@gmail.com}}%
-        \kern 0.25 cm%
+        \kern 0.4 cm%
         \AND%
-        \kern 0.25 cm%
+        \kern 0.4 cm%
         \mbox{\hrefWithoutArrow{tel:+40-770-779-947}{{\footnotesize\faPhone*}\hspace*{0.13cm}+40 770 779 947}}%
-        \kern 0.25 cm%
+        \kern 0.4 cm%
         \AND%
-        \kern 0.25 cm%
+        \kern 0.4 cm%
         \mbox{\hrefWithoutArrow{https://linkedin.com/in/cristiancristea00}{{\footnotesize\faLinkedinIn}\hspace*{0.13cm}cristiancristea00}}%
-        \kern 0.25 cm%
+        \kern 0.4 cm%
         \AND%
-        \kern 0.25 cm%
+        \kern 0.4 cm%
         \mbox{\hrefWithoutArrow{https://github.com/cristiancristea00}{{\footnotesize\faGithub}\hspace*{0.13cm}cristiancristea00}}%
     \end{header}
 
-    \vspace{0.3 cm - 0.3 cm}
+    \vspace{0.5 cm - 0.3 cm}
 
 
     \section{About}
@@ -278,7 +278,7 @@
             \textbf{Microchip Technology}, \textit{Intern Embedded Applications}
             \begin{highlights}
                 \item Completed an onboarding training in embedded systems fundamentals, covering key topics such as microcontrollers, interrupts, and communication protocols (UART, I2C, and SPI)
-                \item Developed an \href{TBD}{Environmental Station} embedded project during a mandatory university apprenticeship, integrating sensor data acquisition, processing, and real-time monitoring
+                \item Developed an \href{https://github.com/cristiancristea00/environmental-station}{Environmental Station} embedded project during a mandatory university apprenticeship, integrating sensor data acquisition, processing, and real-time monitoring
                 \item Gained initial experience with Agile software development methodology through the Scrum process, acquiring a practical understanding of iterative development and team collaboration
                 \item Familiarised myself with Agile-oriented tools from Atlassian, including Jira, Bitbucket, and Confluence, as well as the DevOps tool Jenkins
                 \item Contributed to the creation and updating of code examples while undergoing ramp-up training in TypeScript
@@ -299,7 +299,7 @@
             \begin{highlights}
                 \item Generated an artificial dataset of facial images with individuals wearing medical masks correctly or incorrectly, leveraging facial landmarks
                 \item Engineered and trained a neural network model using transfer learning, optimising it for real-time inference of mask compliance
-                \item Developed a Python-based application using \texttt{rospy} to integrate the neural network with the \href{https://pal-robotics.com/robot/tiago}{TIAGo from PAL Robotics}
+                \item Developed a Python-based application using rospy to integrate the neural network with the \href{https://pal-robotics.com/robot/tiago}{TIAGo} from PAL Robotics
                 \item Designed and implemented an algorithm to accurately extract and analyse body temperature readings from a thermographic camera feed
             \end{highlights}
         \end{twocolentry}
@@ -317,7 +317,7 @@
 
         Sep 2023 to present
         }
-            \textbf{University of Science and Technology POLITEHNICA Bucharest}, \textit{Advanced Computing in Embedded Systems}
+            \textbf{Faculty of Electronics, Telecommunications and Information Technology – University of Science and Technology POLITEHNICA Bucharest}, \textit{Advanced Computing in Embedded Systems}
             \begin{highlights}
                 \item Excelled in Microcontrollers and Embedded Systems as well as Digital System Design Project courses
                 \item Deeply engaged with courses in Reconfigurable Computing, with a particular emphasis on hands-on FPGA implementations, as well as Performance Analysis and Optimisation, and Software Development Process and Testing
@@ -332,7 +332,7 @@
 
         Sep 2019 to Jul 2023
         }
-            \textbf{University of Science and Technology POLITEHNICA Bucharest}, \textit{Information Engineering}
+            \textbf{Faculty of Electronics, Telecommunications and Information Technology – University of Science and Technology POLITEHNICA Bucharest}, \textit{Information Engineering}
             \begin{highlights}
                 \item Demonstrated strong performance in core courses, including Computer Programming, Data Structures, Algorithms, and Object-Oriented Programming, with a particular passion for Microprocessor Architecture and Microcontrollers
                 \item Gained hands-on experience in Circuit Synthesis and Testing using Verilog, with a deep understanding of Digital Circuits Design principles
@@ -354,7 +354,7 @@
             }
                 \textbf{\href{https://www.credly.com/badges/f765af4e-e1df-4644-8a9c-4a8ab9fedc42}{CCNA: Introduction to Networks}}
 
-                \vspace{0.10 cm}
+                \vspace{0.1 cm}
 
                 \mbox{Issued by Cisco}
             \end{twocolentry}
@@ -368,7 +368,7 @@
             }
                 \textbf{\href{https://www.credly.com/badges/740a37a0-4a40-4a36-abe1-679ad53e4146}{Google IT Automation with Python Professional Certificate}}
 
-                \vspace{0.10 cm}
+                \vspace{0.1 cm}
 
                 \mbox{Issued by Coursera}
             \end{twocolentry}
@@ -382,7 +382,7 @@
             }
                 \textbf{\href{https://www.credly.com/badges/0c20b39b-18c1-4498-8e57-1aedb3f36904}{Google IT Support Professional Certificate}}
 
-                \vspace{0.10 cm}
+                \vspace{0.1 cm}
 
                 \mbox{Issued by Coursera}
             \end{twocolentry}
@@ -396,7 +396,7 @@
             }
                 \textbf{\href{https://www.coursera.org/account/accomplishments/specialization/certificate/XHAD9DTRYTMG}{TensorFlow: Data and Deployment Specialization}}
 
-                \vspace{0.10 cm}
+                \vspace{0.1 cm}
 
                 \mbox{Issued by Coursera}
             \end{twocolentry}
@@ -410,7 +410,7 @@
             }
                 \textbf{\href{https://www.coursera.org/account/accomplishments/specialization/certificate/Z79E5B7CY76C}{TensorFlow Developer Professional Certificate}}
 
-                \vspace{0.10 cm}
+                \vspace{0.1 cm}
 
                 \mbox{Issued by Coursera}
             \end{twocolentry}
@@ -424,7 +424,7 @@
             }
                 \textbf{\href{https://www.coursera.org/account/accomplishments/specialization/certificate/BRJV9TAX7QUA}{Deep Learning Specialization}}
 
-                \vspace{0.10 cm}
+                \vspace{0.1 cm}
 
                 \mbox{Issued by Coursera}
             \end{twocolentry}
@@ -438,7 +438,7 @@
             }
                 \textbf{\href{https://1drv.ms/b/s!Art6DR7ET63umGTH3dIUsOB616G7?e=Df5XSN}{Cambridge C1 Advanced}}
 
-                \vspace{0.10 cm}
+                \vspace{0.1 cm}
 
                 \mbox{Issued by Cambridge English}
             \end{twocolentry}
@@ -452,7 +452,7 @@
             }
                 \textbf{\href{https://1drv.ms/b/s!Art6DR7ET63umGixI31QfN1xKphF?e=oC7JjH}{International Computer Drivers License}}
 
-                \vspace{0.10 cm}
+                \vspace{0.1 cm}
 
                 \mbox{Issued by ICDL}
             \end{twocolentry}
