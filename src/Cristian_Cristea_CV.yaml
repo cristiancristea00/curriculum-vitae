@@ -1,5 +1,6 @@
 cv:
     name: Cristian Cristea
+    location: Bucharest, Romania
     email: cristiancristea00@gmail.com
     phone: tel:+40770779947
     social_networks:
@@ -146,7 +147,7 @@ design:
         header:
             vertical_between_name_and_connections: 0.5 cm
             bottom: 0.5 cm
-            horizontal_between_connections: 0.8 cm
+            horizontal_between_connections: 0.5 cm
     show_timespan_in:
         - Experience
 

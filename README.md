@@ -2,6 +2,7 @@
 
 - **Phone**: [+40 770 779 947](tel:+40770779947)
 - **Email**: [cristiancristea00@gmail.com](mailto:cristiancristea00@gmail.com)
+- **Location**: Bucharest, Romania
 - **LinkedIn**: [cristiancristea00](https://linkedin.com/in/cristiancristea00)
 - **GitHub**: [cristiancristea00](https://github.com/cristiancristea00)
 
