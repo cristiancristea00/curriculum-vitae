@@ -24,7 +24,7 @@ cv:
               details: Embedded Systems | Internet of Things | Machine Learning | Photography
         experience:
             - company: Microchip Technology
-              position: Embedded Software Engineer
+              position: "Embedded Software Engineer — Full-time — Hybrid"
               location: Bucharest, Romania
               start_date: 2023-08
               end_date: present
@@ -35,7 +35,7 @@ cv:
                   - Authored and helped with Application Notes and Technical Brief documents, including the development of associated coding examples and hardware demos to support technical understanding and practical application
                   - Acquired experience with DITA-based structured content authoring and management tools by using Tridion Docs for documentation creation.
             - company: Microchip Technology
-              position: Intern Embedded Applications
+              position: Intern Embedded Applications — Internship — On-site
               location: Bucharest, Romania
               start_date: 2022-07
               end_date: 2023-08
@@ -46,7 +46,7 @@ cv:
                   - Familiarised myself with Agile-oriented tools from Atlassian, including Jira, Bitbucket, and Confluence, as well as the DevOps tool Jenkins
                   - Contributed to the creation and updating of code examples while undergoing ramp-up training in TypeScript
             - company: CAMPUS Research Institute
-              position: Research Intern
+              position: Research Intern — Internship — On-site
               location: Bucharest, Romania
               start_date: 2020-07
               end_date: 2020-09

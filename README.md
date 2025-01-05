@@ -19,7 +19,7 @@
 
 ## Microchip Technology
 
-*Embedded Software Engineer*
+*Embedded Software Engineer — Full-time — Hybrid*
 
 **Period:** Aug 2023 to present
 
@@ -33,7 +33,7 @@
 
 ## Microchip Technology
 
-*Intern Embedded Applications*
+*Intern Embedded Applications — Internship — On-site*
 
 **Period:** Jul 2022 to Aug 2023
 
@@ -47,7 +47,7 @@
 
 ## CAMPUS Research Institute
 
-*Research Intern*
+*Research Intern — Internship — On-site*
 
 **Period:** Jul 2020 to Sep 2020
 
