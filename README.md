@@ -18,7 +18,7 @@
 
 ## Microchip Technology
 
-**Embedded Software Engineer**
+*Embedded Software Engineer*
 
 **Period:** Aug 2023 to present
 
@@ -32,21 +32,21 @@
 
 ## Microchip Technology
 
-**Intern Embedded Applications**
+*Intern Embedded Applications*
 
 **Period:** Jul 2022 to Aug 2023
 
 **Location:** Bucharest, Romania
 
 - Completed an onboarding training in embedded systems fundamentals, covering key topics such as microcontrollers, interrupts, and communication protocols (UART, I2C, and SPI)
-- Developed an [Environmental Station](TBD) embedded project during a mandatory university apprenticeship, integrating sensor data acquisition, processing, and real-time monitoring
+- Developed an [Environmental Station](https://github.com/cristiancristea00/environmental-station) embedded project during a mandatory university apprenticeship, integrating sensor data acquisition, processing, and real-time monitoring
 - Gained initial experience with Agile software development methodology through the Scrum process, acquiring a practical understanding of iterative development and team collaboration
 - Familiarised myself with Agile-oriented tools from Atlassian, including Jira, Bitbucket, and Confluence, as well as the DevOps tool Jenkins
 - Contributed to the creation and updating of code examples while undergoing ramp-up training in TypeScript
 
 ## CAMPUS Research Institute
 
-**Research Intern**
+*Research Intern*
 
 **Period:** Jul 2020 to Sep 2020
 
@@ -54,14 +54,14 @@
 
 - Generated an artificial dataset of facial images with individuals wearing medical masks correctly or incorrectly, leveraging facial landmarks
 - Engineered and trained a neural network model using transfer learning, optimising it for real-time inference of mask compliance
-- Developed a Python-based application using \texttt{rospy} to integrate the neural network with the [TIAGo from PAL Robotics](https://pal-robotics.com/robot/tiago)
+- Developed a Python-based application using rospy to integrate the neural network with the [TIAGo](https://pal-robotics.com/robot/tiago) from PAL Robotics
 - Designed and implemented an algorithm to accurately extract and analyse body temperature readings from a thermographic camera feed
 
 # Education
 
-## University of Science and Technology POLITEHNICA Bucharest
+## Faculty of Electronics, Telecommunications and Information Technology – University of Science and Technology POLITEHNICA Bucharest
 
-**M.Sc. in Advanced Computing in Embedded Systems**
+*M.Sc. in Advanced Computing in Embedded Systems*
 
 **Period:** Sep 2023 to present
 
@@ -71,9 +71,9 @@
 - Deeply engaged with courses in Reconfigurable Computing, with a particular emphasis on hands-on FPGA implementations, as well as Performance Analysis and Optimisation, and Software Development Process and Testing
 - Engaged in related studies on Functional Verification, Fundamentals of Computer Vision, Machine Learning, and Operating Systems
 
-## University of Science and Technology POLITEHNICA Bucharest
+## Faculty of Electronics, Telecommunications and Information Technology – University of Science and Technology POLITEHNICA Bucharest
 
-**B.Sc. in Information Engineering**
+*B.Sc. in Information Engineering*
 
 **Period:** Sep 2019 to Jul 2023
 

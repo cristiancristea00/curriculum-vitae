@@ -40,7 +40,7 @@ cv:
               end_date: 2023-08
               highlights:
                   - Completed an onboarding training in embedded systems fundamentals, covering key topics such as microcontrollers, interrupts, and communication protocols (UART, I2C, and SPI)
-                  - Developed an [Environmental Station](TBD) embedded project during a mandatory university apprenticeship, integrating sensor data acquisition, processing, and real-time monitoring
+                  - Developed an [Environmental Station](https://github.com/cristiancristea00/environmental-station) embedded project during a mandatory university apprenticeship, integrating sensor data acquisition, processing, and real-time monitoring
                   - Gained initial experience with Agile software development methodology through the Scrum process, acquiring a practical understanding of iterative development and team collaboration
                   - Familiarised myself with Agile-oriented tools from Atlassian, including Jira, Bitbucket, and Confluence, as well as the DevOps tool Jenkins
                   - Contributed to the creation and updating of code examples while undergoing ramp-up training in TypeScript
@@ -52,10 +52,10 @@ cv:
               highlights:
                   - Generated an artificial dataset of facial images with individuals wearing medical masks correctly or incorrectly, leveraging facial landmarks
                   - Engineered and trained a neural network model using transfer learning, optimising it for real-time inference of mask compliance
-                  - Developed a Python-based application using \texttt{rospy} to integrate the neural network with the [TIAGo from PAL Robotics](https://pal-robotics.com/robot/tiago)
+                  - Developed a Python-based application using rospy to integrate the neural network with the [TIAGo](https://pal-robotics.com/robot/tiago) from PAL Robotics
                   - Designed and implemented an algorithm to accurately extract and analyse body temperature readings from a thermographic camera feed
         education:
-            - institution: University of Science and Technology POLITEHNICA Bucharest
+            - institution: Faculty of Electronics, Telecommunications and Information Technology – University of Science and Technology POLITEHNICA Bucharest
               area: Advanced Computing in Embedded Systems
               degree: M.Sc.
               location: Bucharest, Romania
@@ -65,7 +65,7 @@ cv:
                   - Excelled in Microcontrollers and Embedded Systems as well as Digital System Design Project courses
                   - Deeply engaged with courses in Reconfigurable Computing, with a particular emphasis on hands-on FPGA implementations, as well as Performance Analysis and Optimisation, and Software Development Process and Testing
                   - Engaged in related studies on Functional Verification, Fundamentals of Computer Vision, Machine Learning, and Operating Systems
-            - institution: University of Science and Technology POLITEHNICA Bucharest
+            - institution: Faculty of Electronics, Telecommunications and Information Technology – University of Science and Technology POLITEHNICA Bucharest
               area: Information Engineering
               degree: B.Sc.
               location: Bucharest, Romania
@@ -127,10 +127,10 @@ design:
     use_icons_for_connections: true
     margins:
         page:
-            top: 1.5 cm
-            bottom: 1.5 cm
-            left: 1.5 cm
-            right: 1.5 cm
+            top: 1.25 cm
+            bottom: 1.25 cm
+            left: 1.25 cm
+            right: 1.25 cm
         section_title:
             top: 0.3 cm
             bottom: 0.2 cm
@@ -140,13 +140,13 @@ design:
             date_and_location_width: 3.5 cm
             education_degree_width: 1 cm
         highlights_area:
-            top: 0.10 cm
-            left: 0.4 cm
-            vertical_between_bullet_points: 0.10 cm
+            top: 0.1 cm
+            left: 0 cm
+            vertical_between_bullet_points: 0.1 cm
         header:
-            vertical_between_name_and_connections: 0.3 cm
-            bottom: 0.3 cm
-            horizontal_between_connections: 0.5 cm
+            vertical_between_name_and_connections: 0.5 cm
+            bottom: 0.5 cm
+            horizontal_between_connections: 0.8 cm
     show_timespan_in:
         - Experience
 

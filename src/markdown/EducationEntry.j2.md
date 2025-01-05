@@ -1,6 +1,6 @@
 ## <<entry.institution>>
 
-**((* if entry.degree *))<<entry.degree>> in ((* endif *))<<entry.area>>**
+*((* if entry.degree *))<<entry.degree>> in ((* endif *))<<entry.area>>*
 
 ((* if entry.date_string *))**Period:** <<entry.date_string>>
 ((* endif *))

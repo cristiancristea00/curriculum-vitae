@@ -1,6 +1,6 @@
 ## <<entry.company>>
 
-**<<entry.position>>**
+*<<entry.position>>*
 
 ((* if entry.date_string *))**Period:** <<entry.date_string>>
 ((* endif *))
