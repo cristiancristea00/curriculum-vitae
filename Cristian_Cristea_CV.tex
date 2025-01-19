@@ -1,4 +1,4 @@
-\documentclass[10pt, letterpaper]{article}
+\documentclass[10pt, a4paper]{article}
 
 % Packages:
 \usepackage[
@@ -212,25 +212,36 @@
 
         
         \begin{onecolentry}
+            I’m an embedded software engineer with nearly three years of hands-on experience designing, developing, and testing firmware for microcontrollers and SoCs across diverse platforms (PIC, AVR, and ARM). My work has focused on integrating robust software solutions with hardware to deliver reliable, high-performance systems, from prototype through production. Proficient in C, C++, and Python, I’ve built pipelines involving CI/CD, automated testing, and containerization (Docker, Jenkins) to ensure quality and accelerate development. I’m especially passionate about IoT and machine learning applications in embedded contexts, always eager to leverage cutting-edge technologies to solve real-world challenges. With a strong background in Agile methodologies, I thrive in collaborative settings that foster continuous improvement. I’m excited to keep learning, growing, and building innovative embedded solutions that make a tangible impact.
+        \end{onecolentry}
+
+
+    
+    \section{Skills}
+
+
+
+        
+        \begin{onecolentry}
             \textbf{Languages:} Native proficiency in Romanian | Full professional proficiency in English | I'm learning French
         \end{onecolentry}
 
         \vspace{0.2 cm}
 
         \begin{onecolentry}
-            \textbf{Programming:} C, C++ and Python | AVR, PIC, and ARM Assembly | MATLAB, Rust, Java, and TypeScript
+            \textbf{Programming:} C, C++ and Python | AVR, PIC, and ARM Assembly | MATLAB, Rust, TypeScript, and Java
+        \end{onecolentry}
+
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \textbf{Development:} Linux | CMake and Make | Jenkins and Docker | Git and GitHub/GitLab/Bitbucket
         \end{onecolentry}
 
         \vspace{0.2 cm}
 
         \begin{onecolentry}
             \textbf{Python:} NumPy, SciPy, SymPy, Pandas, Seaborn, Matplotlib, OpenCV, scikit-image, scikit-learn, and TensorFlow
-        \end{onecolentry}
-
-        \vspace{0.2 cm}
-
-        \begin{onecolentry}
-            \textbf{Development:} Linux | Git and GitHub/GitLab/Bitbucket | CMake and Make
         \end{onecolentry}
 
         \vspace{0.2 cm}
@@ -261,10 +272,11 @@
         }
             \textbf{Microchip Technology}, \textit{Embedded Software Engineer — Full-time — Hybrid}
             \begin{highlights}
-                \item Developed and updated low-level peripheral drivers for PIC and AVR microcontrollers, implementing unit tests using a custom variant of the \href{https://www.throwtheswitch.org/unity}{Unity} framework to ensure driver reliability and functionality
-                \item Collaborated on the development and testing of various embedded systems solutions, contributing to the design, integration, and validation of complex systems
-                \item Developed and tested GUI-based code generation tools for new peripherals using TypeScript and FreeMarker, leveraging an internal framework.
-                \item Authored and helped with Application Notes and Technical Brief documents, including the development of associated coding examples and hardware demos to support technical understanding and practical application
+                \item Collaborated on developing and testing various embedded systems solutions, contributing to the project design, integration, and validation.
+                \item Designed and implemented a pipeline system using Jenkins and Docker to perform unit testing, mocking and coverage metrics extraction within an emulation environment for embedded solution projects.
+                \item Developed and updated low-level peripheral drivers for PIC and AVR microcontrollers, implementing unit tests using \href{https://www.throwtheswitch.org/unity}{Unity} and mocks using \href{https://github.com/ThrowTheSwitch/CMock}{CMock} to ensure driver reliability and functionality.
+                \item Created and tested GUI-based code generation tools for new peripherals using TypeScript for development and FreeMarker for templates, leveraging an internal framework.
+                \item Authored and helped with Application Notes and Technical Brief documents, including developing associated coding examples and hardware demos.
                 \item Acquired experience with DITA-based structured content authoring and management tools by using Tridion Docs for documentation creation.
             \end{highlights}
         \end{twocolentry}
@@ -281,11 +293,11 @@
         }
             \textbf{Microchip Technology}, \textit{Intern Embedded Applications — Internship — On-site}
             \begin{highlights}
-                \item Completed an onboarding training in embedded systems fundamentals, covering key topics such as microcontrollers, interrupts, and communication protocols (UART, I2C, and SPI)
-                \item Developed an \href{https://github.com/cristiancristea00/environmental-station}{Environmental Station} embedded project during a mandatory university apprenticeship, integrating sensor data acquisition, processing, and real-time monitoring
-                \item Gained initial experience with Agile software development methodology through the Scrum process, acquiring a practical understanding of iterative development and team collaboration
-                \item Familiarised myself with Agile-oriented tools from Atlassian, including Jira, Bitbucket, and Confluence, as well as the DevOps tool Jenkins
-                \item Contributed to the creation and updating of code examples while undergoing ramp-up training in TypeScript
+                \item Completed onboarding training in embedded systems fundamentals, covering key topics such as microcontrollers, interrupts, and communication protocols (UART, I2C, and SPI).
+                \item Developed an \href{https://github.com/cristiancristea00/environmental-station}{Environmental Station} embedded project during a mandatory university apprenticeship, integrating sensor data acquisition, processing, and real-time monitoring.
+                \item Gained initial experience with Agile software development methodology through the Scrum process, acquiring a practical understanding of iterative development and team collaboration.
+                \item Familiarised myself with Agile-oriented tools from Atlassian, including Jira, Bitbucket, and Confluence, as well as the DevOps tool Jenkins.
+                \item Contributed to the creation and updating of code examples while undergoing ramp-up training in TypeScript.
             \end{highlights}
         \end{twocolentry}
 
@@ -301,10 +313,71 @@
         }
             \textbf{CAMPUS Research Institute}, \textit{Research Intern — Internship — On-site}
             \begin{highlights}
-                \item Generated an artificial dataset of facial images with individuals wearing medical masks correctly or incorrectly, leveraging facial landmarks
-                \item Engineered and trained a neural network model using transfer learning, optimising it for real-time inference of mask compliance
-                \item Developed a Python-based application using rospy to integrate the neural network with the \href{https://pal-robotics.com/robot/tiago}{TIAGo} from PAL Robotics
-                \item Designed and implemented an algorithm to accurately extract and analyse body temperature readings from a thermographic camera feed
+                \item Generated an artificial dataset of facial images with individuals wearing medical masks correctly or incorrectly, leveraging facial landmarks.
+                \item Engineered and trained a neural network model using transfer learning, optimising it for real-time inference of mask compliance.
+                \item Developed a Python-based application using rospy to integrate the neural network with the \href{https://pal-robotics.com/robot/tiago}{TIAGo} from PAL Robotics.
+                \item Designed and implemented an algorithm to accurately extract and analyse body temperature readings from a thermographic camera feed.
+            \end{highlights}
+        \end{twocolentry}
+
+
+
+    
+    \section{Projects}
+
+
+
+        
+        \begin{twocolentry}{
+            \href{https://github.com/cristiancristea00/sensor-board}{GitHub}
+        }
+            \textbf{Sensor Board}
+            \begin{highlights}
+                \item Designed a custom PCB featuring an STM32 microcontroller with multiple sensors interfaced via SPI, I2C, and ADC connections, leveraging KiCad for schematic capture and PCB layout.
+                \item Developed the project from the ground up, following industry practices and tutorials to gain hands-on experience in PCB design, component selection, and schematic validation.
+                \item Prepared the board for manufacturing and testing, ensuring design readiness for real-world deployment and validation of sensor data acquisition.
+            \end{highlights}
+        \end{twocolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            \href{https://github.com/cristiancristea00/environmental-station}{GitHub}
+        }
+            \textbf{Environmental Station}
+            \begin{highlights}
+                \item Developed an IoT-style system to monitor environmental parameters, including temperature, pressure, and humidity, using two AVR-based 8-bit microcontrollers.
+                \item Designed and implemented a communication protocol between the sensor and base boards, leveraging Bluetooth modules with UART and a CRC-based data redundancy check.
+                \item Integrated environmental sensors via I2C and an OLED display via SPI, focusing on efficient real-time data acquisition and visualization.
+            \end{highlights}
+        \end{twocolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            \href{https://github.com/microchip-pic-avr-examples/pic18f56q71-ultrasonic-range-detection-mplab-mcc}{GitHub}
+        }
+            \textbf{Ultrasonic Range Detection}
+            \begin{highlights}
+                \item Designed and implemented an ultrasonic range detection system using Core Independent Peripherals (CIP) on the PIC18-Q71 microcontroller family to minimize CPU resource utilization.
+                \item Configured alternating PWM signals to drive a transmitter and employed a Peak Detector, Comparator, and Universal Timer (UTMR) for precise signal acquisition and time-of-flight measurement, enabling accurate distance calculations.
+                \item Built and tested a functional prototype on a demo protoboard with standalone ultrasonic transducers, showcasing real-world application and hardware integration.
+            \end{highlights}
+        \end{twocolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            \href{https://github.com/cristiancristea00/tic-tac-toe}{GitHub}
+        }
+            \textbf{Tic-Tac-Toe}
+            \begin{highlights}
+                \item Developed a Tic-Tac-Toe game using the Raspberry Pi Pico, integrating an LCD screen for gameplay, a matrix keypad for user input, and a multiplexed seven-segment display for scorekeeping.
+                \item Implemented three difficulty levels using the minimax algorithm for AI decision-making and a pseudo-random number generator to add variability, allowing for both single-player and two-player modes.
+                \item Leveraged the RP2040’s dual-core architecture to offload user input handling, game menu control, LCD backlight management, and display brightness adjustments to the second core for optimised performance.
             \end{highlights}
         \end{twocolentry}
 
@@ -323,9 +396,10 @@
         }
             \textbf{Faculty of Electronics, Telecommunications and Information Technology – University of Science and Technology POLITEHNICA Bucharest}, \textit{Advanced Computing in Embedded Systems}
             \begin{highlights}
-                \item Excelled in Microcontrollers and Embedded Systems as well as Digital System Design Project courses
-                \item Deeply engaged with courses in Reconfigurable Computing, with a particular emphasis on hands-on FPGA implementations, as well as Performance Analysis and Optimisation, and Software Development Process and Testing
-                \item Engaged in related studies on Functional Verification, Fundamentals of Computer Vision, Machine Learning, and Operating Systems
+                \item Thesis: "Cutting-edge algorithm for detecting humans in side-by-side thermal and visible spectrum images"
+                \item Achieved strong academic performance in courses such as Microcontrollers and Embedded Systems, Digital System Design, Distributed and High-Performance Computing, and Parallel Programming.
+                \item Gained hands-on expertise in Reconfigurable Computing, emphasizing FPGA implementations, and deepened knowledge in Performance Analysis and Optimization and Software Development Process and Testing.
+                \item Expanded technical foundation with studies in Functional Verification, Computer Vision, Machine Learning, Operating Systems, and Compilers.
             \end{highlights}
         \end{threecolentry}
 
@@ -338,10 +412,12 @@
         }
             \textbf{Faculty of Electronics, Telecommunications and Information Technology – University of Science and Technology POLITEHNICA Bucharest}, \textit{Information Engineering}
             \begin{highlights}
-                \item Demonstrated strong performance in core courses, including Computer Programming, Data Structures, Algorithms, and Object-Oriented Programming, with a particular passion for Microprocessor Architecture and Microcontrollers
-                \item Gained hands-on experience in Circuit Synthesis and Testing using Verilog, with a deep understanding of Digital Circuits Design principles
-                \item Developed foundational skills in analogue circuit design, including simulation and analysis using SPICE programs
-                \item Engaged in comprehensive coursework covering Machine Learning, Image Processing and Analysis, Distributed and Parallel Computing, Database Systems, Digital and Statistical Signal Processing, Information Theory, Communication Systems, Computer Networks, PCB Design, and advanced mathematics including Statistics, Probability, Linear Algebra, Multivariable Calculus, and Differential Equations
+                \item Thesis: "Degraded colour images inpainting system using deep learning techniques"
+                \item Excelled in core computer science courses, including Computer Programming, Data Structures, Algorithms, and Object-Oriented Programming, with a strong focus on Microprocessor Architecture and Microcontrollers.
+                \item Acquired hands-on experience in Circuit Synthesis and Testing using Verilog, complemented by a solid understanding of Digital Circuit Design principles.
+                \item Built the foundation in Analog Circuit Design, including simulation and analysis using SPICE programs.
+                \item Engaged in diverse coursework spanning Machine Learning, Image Processing and Analysis, Distributed and Parallel Computing, Database Systems, Digital and Statistical Signal Processing, Information Theory, Communication Systems, and Computer Networks.
+                \item Developed advanced mathematical skills, including Statistics, Probability, Linear Algebra, Multivariable Calculus, and Differential Equations.
             \end{highlights}
         \end{threecolentry}
 
@@ -454,7 +530,7 @@
             \begin{twocolentry}{
                 2018
             }
-                \textbf{\href{https://1drv.ms/b/s!Art6DR7ET63umGixI31QfN1xKphF?e=oC7JjH}{International Computer Drivers License}}
+                \textbf{\href{https://bd.ecdl.org.ro/ecdlvcard/certification.aspx?pcode=2431704NgVYIX7Ecq9P3KujF1UR0pG}{International Computer Drivers License}}
 
                 \vspace{0.1 cm}
 
