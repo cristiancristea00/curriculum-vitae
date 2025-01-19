@@ -9,7 +9,7 @@ cv:
         - network: GitHub
           username: cristiancristea00
     sections:
-        about:
+        summary:
             - I’m an embedded software engineer with nearly three years of hands-on experience designing, developing, and testing firmware for microcontrollers and SoCs across diverse platforms (PIC, AVR, and ARM). My work has focused on integrating robust software solutions with hardware to deliver reliable, high-performance systems, from prototype through production. Proficient in C, C++, and Python, I’ve built pipelines involving CI/CD, automated testing, and containerization (Docker, Jenkins) to ensure quality and accelerate development. I’m especially passionate about IoT and machine learning applications in embedded contexts, always eager to leverage cutting-edge technologies to solve real-world challenges. With a strong background in Agile methodologies, I thrive in collaborative settings that foster continuous improvement. I’m excited to keep learning, growing, and building innovative embedded solutions that make a tangible impact.
         skills:
             - label: Languages
@@ -31,19 +31,20 @@ cv:
               start_date: 2023-08
               end_date: present
               highlights:
-                - Collaborated on developing and testing various embedded systems solutions, contributing to the project design, integration, and validation.
+                - Collaborated with cross-functional teams across multiple countries to design, integrate, and validate embedded system solutions, fostering efficient communication and successful project delivery.
+                - Designed and validated embedded systems for PIC/AVR microcontrollers, focusing on integration and functional testing to meet system reliability goals.
                 - Designed and implemented a pipeline system using Jenkins and Docker to perform unit testing, mocking and coverage metrics extraction within an emulation environment for embedded solution projects.
                 - Developed and updated low-level peripheral drivers for PIC and AVR microcontrollers, implementing unit tests using [Unity](https://www.throwtheswitch.org/unity) and mocks using [CMock](https://github.com/ThrowTheSwitch/CMock) to ensure driver reliability and functionality.
                 - Created and tested GUI-based code generation tools for new peripherals using TypeScript for development and FreeMarker for templates, leveraging an internal framework.
                 - Authored and helped with Application Notes and Technical Brief documents, including developing associated coding examples and hardware demos.
-                - Acquired experience with DITA-based structured content authoring and management tools by using Tridion Docs for documentation creation.
+                - Utilized DITA-based Tridion Docs to create structured documentation, ensuring consistency and compliance with Microchip’s technical writing standards.
             - company: Microchip Technology
               position: Intern Embedded Applications — Internship — On-site
               location: Bucharest, Romania
               start_date: 2022-07
               end_date: 2023-08
               highlights:
-                - Completed onboarding training in embedded systems fundamentals, covering key topics such as microcontrollers, interrupts, and communication protocols (UART, I2C, and SPI).
+                - Mastered embedded systems fundamentals, including microcontroller programming, interrupts, and communication protocols (UART, I2C, SPI), enabling swift integration into ongoing projects.
                 - Developed an [Environmental Station](https://github.com/cristiancristea00/environmental-station) embedded project during a mandatory university apprenticeship, integrating sensor data acquisition, processing, and real-time monitoring.
                 - Gained initial experience with Agile software development methodology through the Scrum process, acquiring a practical understanding of iterative development and team collaboration.
                 - Familiarised myself with Agile-oriented tools from Atlassian, including Jira, Bitbucket, and Confluence, as well as the DevOps tool Jenkins.
