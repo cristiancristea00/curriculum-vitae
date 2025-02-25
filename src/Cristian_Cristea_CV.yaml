@@ -85,7 +85,7 @@ cv:
                 - Implemented three difficulty levels using the minimax algorithm for AI decision-making and a pseudo-random number generator to add variability, allowing for both single-player and two-player modes.
                 - Leveraged the RP2040’s dual-core architecture to offload user input handling, game menu control, LCD backlight management, and display brightness adjustments to the second core for optimised performance.
         education:
-            - institution: Faculty of Electronics, Telecommunications and Information Technology – University of Science and Technology POLITEHNICA Bucharest
+            - institution: Faculty of Electronics, Telecommunications and Information Technology — National University of Science and Technology POLITEHNICA Bucharest
               area: Advanced Computing in Embedded Systems
               degree: M.Sc.
               location: Bucharest, Romania
@@ -96,7 +96,7 @@ cv:
                 - Achieved strong academic performance in courses such as Microcontrollers and Embedded Systems, Digital System Design, Distributed and High-Performance Computing, and Parallel Programming.
                 - Gained hands-on expertise in Reconfigurable Computing, emphasizing FPGA implementations, and deepened knowledge in Performance Analysis and Optimization and Software Development Process and Testing.
                 - Expanded technical foundation with studies in Functional Verification, Computer Vision, Machine Learning, Operating Systems, and Compilers.
-            - institution: Faculty of Electronics, Telecommunications and Information Technology – University of Science and Technology POLITEHNICA Bucharest
+            - institution: Faculty of Electronics, Telecommunications and Information Technology — National University of Science and Technology POLITEHNICA Bucharest
               area: Information Engineering
               degree: B.Sc.
               location: Bucharest, Romania

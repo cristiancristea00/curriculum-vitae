@@ -104,7 +104,7 @@ I’m an embedded software engineer with nearly three years of hands-on experien
 
 # Education
 
-## Faculty of Electronics, Telecommunications and Information Technology – University of Science and Technology POLITEHNICA Bucharest
+## Faculty of Electronics, Telecommunications and Information Technology — National University of Science and Technology POLITEHNICA Bucharest
 
 *M.Sc. in Advanced Computing in Embedded Systems*
 
@@ -117,7 +117,7 @@ I’m an embedded software engineer with nearly three years of hands-on experien
 - Gained hands-on expertise in Reconfigurable Computing, emphasizing FPGA implementations, and deepened knowledge in Performance Analysis and Optimization and Software Development Process and Testing.
 - Expanded technical foundation with studies in Functional Verification, Computer Vision, Machine Learning, Operating Systems, and Compilers.
 
-## Faculty of Electronics, Telecommunications and Information Technology – University of Science and Technology POLITEHNICA Bucharest
+## Faculty of Electronics, Telecommunications and Information Technology — National University of Science and Technology POLITEHNICA Bucharest
 
 *B.Sc. in Information Engineering*
 
