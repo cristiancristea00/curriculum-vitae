@@ -10,12 +10,12 @@ cv:
           username: cristiancristea00
     sections:
         summary:
-            - I’m an embedded software engineer with nearly three years of hands-on experience designing, developing, and testing firmware for microcontrollers and SoCs across diverse platforms (PIC, AVR, and ARM). My work has focused on integrating robust software solutions with hardware to deliver reliable, high-performance systems, from prototype through production. Proficient in C, C++, and Python, I’ve built pipelines involving CI/CD, automated testing, and containerization (Docker, Jenkins) to ensure quality and accelerate development. I’m especially passionate about IoT and machine learning applications in embedded contexts, always eager to leverage cutting-edge technologies to solve real-world challenges. With a strong background in Agile methodologies, I thrive in collaborative settings that foster continuous improvement. I’m excited to keep learning, growing, and building innovative embedded solutions that make a tangible impact.
+            - I’m a macOS developer working daily with Swift, C++, C, and some Objective-C/C++. I contribute to existing macOS codebases by adding new features, implementing changes, refactoring modules, fixing bugs, writing tests, and keeping performance and reliability in check. My toolkit includes Xcode, Instruments, and CI/CD, and I’m comfortable bridging Swift with Objective-C++/C++ and interfacing with system frameworks. Previously, I spent nearly three years in embedded software engineering, shipping firmware for PIC/AVR/ARM microcontrollers from prototype to production, which strengthened my low-level debugging and systems thinking. I work well in Agile teams and focus on practical, incremental improvements that keep macOS software stable and maintainable.
         skills:
             - label: Languages
               details: Native proficiency in Romanian | Full professional proficiency in English | I'm learning French
             - label: Programming
-              details: C, C++ and Python | AVR, PIC, and ARM Assembly | MATLAB, Rust, TypeScript, and Java
+              details: Swift, C++, Objective-C/C++, C and Python | AVR, PIC, and ARM Assembly | MATLAB, Rust, TypeScript, and Java
             - label: Development
               details: Linux | CMake and Make | Jenkins and Docker | Git and GitHub/GitLab/Bitbucket
             - label: Python
@@ -23,13 +23,20 @@ cv:
             - label: Others
               details: LaTeX | Doxygen and Markdown | System Verilog and SPICE
             - label: Interests
-              details: Embedded Systems | Internet of Things | Machine Learning | Photography
+              details: Embedded Systems | Internet of Things | Photography
         experience:
+            - company: Bitdefender
+              position: "Software Engineer — Full-time — Remote"
+              location: Bucharest, Romania
+              start_date: 2025-04
+              end_date: present
+              highlights:
+                - WIP
             - company: Microchip Technology
               position: "Embedded Software Engineer — Full-time — Hybrid"
               location: Bucharest, Romania
               start_date: 2023-08
-              end_date: present
+              end_date: 2025-04
               highlights:
                 - Collaborated with cross-functional teams across multiple countries to design, integrate, and validate embedded system solutions, fostering efficient communication and successful project delivery.
                 - Designed and validated embedded systems for PIC/AVR microcontrollers, focusing on integration and functional testing to meet system reliability goals.
