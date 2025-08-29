@@ -9,23 +9,33 @@
 
 # Summary
 
-I’m an embedded software engineer with nearly three years of hands-on experience designing, developing, and testing firmware for microcontrollers and SoCs across diverse platforms (PIC, AVR, and ARM). My work has focused on integrating robust software solutions with hardware to deliver reliable, high-performance systems, from prototype through production. Proficient in C, C++, and Python, I’ve built pipelines involving CI/CD, automated testing, and containerization (Docker, Jenkins) to ensure quality and accelerate development. I’m especially passionate about IoT and machine learning applications in embedded contexts, always eager to leverage cutting-edge technologies to solve real-world challenges. With a strong background in Agile methodologies, I thrive in collaborative settings that foster continuous improvement. I’m excited to keep learning, growing, and building innovative embedded solutions that make a tangible impact.
+I’m a macOS developer working daily with Swift, C++, C, and some Objective-C/C++. I contribute to existing macOS codebases by adding new features, implementing changes, refactoring modules, fixing bugs, writing tests, and keeping performance and reliability in check. My toolkit includes Xcode, Instruments, and CI/CD, and I’m comfortable bridging Swift with Objective-C++/C++ and interfacing with system frameworks. Previously, I spent nearly three years in embedded software engineering, shipping firmware for PIC/AVR/ARM microcontrollers from prototype to production, which strengthened my low-level debugging and systems thinking. I work well in Agile teams and focus on practical, incremental improvements that keep macOS software stable and maintainable.
 
 # Skills
 
 - **Languages**: Native proficiency in Romanian | Full professional proficiency in English | I'm learning French
-- **Programming**: C, C++ and Python | AVR, PIC, and ARM Assembly | MATLAB, Rust, TypeScript, and Java
+- **Programming**: Swift, C++, Objective-C/C++, C and Python | AVR, PIC, and ARM Assembly | MATLAB, Rust, TypeScript, and Java
 - **Development**: Linux | CMake and Make | Jenkins and Docker | Git and GitHub/GitLab/Bitbucket
 - **Python**: NumPy, SciPy, SymPy, Pandas, Seaborn, Matplotlib, OpenCV, scikit-image, scikit-learn, and TensorFlow
 - **Others**: LaTeX | Doxygen and Markdown | System Verilog and SPICE
-- **Interests**: Embedded Systems | Internet of Things | Machine Learning | Photography
+- **Interests**: Embedded Systems | Internet of Things | Photography
 # Experience
+
+## Bitdefender
+
+*Software Engineer — Full-time — Remote*
+
+**Period:** Apr 2025 to present
+
+**Location:** Bucharest, Romania
+
+- WIP
 
 ## Microchip Technology
 
 *Embedded Software Engineer — Full-time — Hybrid*
 
-**Period:** Aug 2023 to present
+**Period:** Aug 2023 to Apr 2025
 
 **Location:** Bucharest, Romania
 
